@@ -1,0 +1,7 @@
+[workspace]
+members = [
+	"rust-sample-app-adapters",
+	"rust-sample-app-drivers",
+	"rust-sample-app-models",
+	"rust-sample-app-usecase",	
+]

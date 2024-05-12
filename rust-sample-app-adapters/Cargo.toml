@@ -1,0 +1,7 @@
+[package]
+name = "rust-sample-app-adapters"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-sample-app-models = { path = "../rust-sample-app-models" }

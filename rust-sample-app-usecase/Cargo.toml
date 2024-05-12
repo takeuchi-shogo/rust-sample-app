@@ -1,0 +1,8 @@
+[package]
+name = "rust-sample-app-usecase"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-sample-app-adapters = { path = "../rust-sample-app-adapters" }
+rust-sample-app-models = { path = "../rust-sample-app-models" }

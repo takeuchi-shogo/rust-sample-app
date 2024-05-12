@@ -1,0 +1,14 @@
+[package]
+name = "rust-sample-app-drivers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-sample-app-adapters = { path = "../rust-sample-app-adapters" }
+rust-sample-app-models = { path = "../rust-sample-app-models" }
+rust-sample-app-usecase = { path = "../rust-sample-app-usecase" }
+
+axum = { version = "0.7.5", features = ["multipart"] }
+anyhow = "1.0.83"
+tracing ={ version = "*" }
+tokio = { version = "1.0", features = ["full"] }
